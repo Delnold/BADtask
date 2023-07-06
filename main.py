@@ -20,6 +20,6 @@ def uniqueChar(ftext):
 
 
 
-file = open("/Users/vika/Desktop/text.txt", "r")
+file = open("text.txt", "r")
 text = file.read()
 print("Answer: " + uniqueChar(text.lower()))
